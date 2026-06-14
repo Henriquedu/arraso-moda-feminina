@@ -3,11 +3,11 @@ const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [...parent.querySelectorAll(selector)];
 
 const routes = {
-  vestido: 'feminino/vestidos/', vestidos: 'feminino/vestidos/',
-  calca: 'feminino/calcas/', calcas: 'feminino/calcas/', jeans: 'feminino/calcas/', alfaiataria: 'feminino/calcas/',
-  blusa: 'feminino/blusas/', blusas: 'feminino/blusas/',
+  vestido: 'feminino/vestidos-e-saias/', vestidos: 'feminino/vestidos-e-saias/', saia: 'feminino/vestidos-e-saias/', saias: 'feminino/vestidos-e-saias/',
+  calca: 'feminino/calcas/', calcas: 'feminino/calcas/', jeans: 'feminino/calcas/', alfaiataria: 'feminino/calcas/', couro: 'feminino/calcas/',
+  blusa: 'feminino/blusas/', blusas: 'feminino/blusas/', trico: 'feminino/blusas/',
   look: 'feminino/looks-e-combinacoes/', looks: 'feminino/looks-e-combinacoes/', combinacao: 'feminino/looks-e-combinacoes/', combinacoes: 'feminino/looks-e-combinacoes/', casual: 'feminino/looks-e-combinacoes/',
-  blazer: 'feminino/blazer/', shorts: 'feminino/shorts/', saia: 'feminino/saia/', saias: 'feminino/saia/',
+  jaqueta: 'feminino/jaquetas/', jaquetas: 'feminino/jaquetas/',
   acessorio: 'acessorios/', acessorios: 'acessorios/', brinco: 'acessorios/brincos/', brincos: 'acessorios/brincos/',
   colar: 'acessorios/colares/', colares: 'acessorios/colares/', cinto: 'acessorios/cintos/', cintos: 'acessorios/cintos/',
   bolsa: 'bolsas/', bolsas: 'bolsas/', contato: 'contato/', whatsapp: 'contato/', instagram: 'contato/', facebook: 'contato/',
